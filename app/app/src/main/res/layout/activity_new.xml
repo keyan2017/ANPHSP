@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_2"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:background="@color/violet"
+            app:navigationIcon="@drawable/baseline_arrow_back_24"
+            app:popupTheme="@style/Theme.EyetrackingTest.PopupOverlay"
+            app:title="新建病例"
+            app:titleTextColor="@color/white" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/image_heading_new"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/serial_number_new"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="#C8C8C8"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/buttonS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="修改病历号" />
+
+                <TextView
+                    android:id="@+id/take"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="0dp"
+
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="#C8C8C8"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="基本信息"
+            android:textColor="#8C8C8C"
+            android:textSize="20sp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/name_new"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintWidth_percent="0.3"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/search"
+                android:hint="姓名"
+                android:paddingLeft="10dp"
+                android:textColor="@color/text_gray"
+                android:textColorHint="#C8C8C8"
+                android:textSize="14sp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+            <RadioGroup
+                android:id="@+id/rg_gender_new"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintWidth_percent="0.7"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@id/name_new"
+                app:layout_constraintBottom_toBottomOf="parent">
+
+                <RadioButton
+                    android:id="@+id/rb_male"
+                    style="@style/Widget.AppCompat.CompoundButton.RadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:checked="true"
+                    android:text="@string/male"
+                    android:textColor="@color/text_gray"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/rb_female"
+                    style="@style/Widget.AppCompat.CompoundButton.RadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="@string/female"
+                    android:textColor="@color/text_gray"
+                    android:textSize="18sp" />
+            </RadioGroup>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/age_new"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.35"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/search"
+                android:hint="年龄"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:textColor="@color/text_gray"
+                android:textColorHint="#C8C8C8"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/departments_new"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.35"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/search"
+                android:hint="科室"
+                android:inputType="text"
+                android:paddingLeft="10dp"
+                android:textColor="@color/text_gray"
+                android:textColorHint="#C8C8C8"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/bed_id_new"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/search"
+                android:hint="床号"
+                android:paddingLeft="10dp"
+                android:textColor="@color/text_gray"
+                android:textColorHint="#C8C8C8"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:text="预测结果"
+            android:textColor="#8C8C8C"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/mchc_pred_new"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/search"
+
+            android:hint="预测结果"
+            android:paddingLeft="10dp"
+
+            android:textColor="@color/text_gray"
+            android:textColorHint="#C8C8C8"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="实际结果"
+            android:textColor="#8C8C8C"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/mchc_real_new"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/search"
+
+            android:hint="实际结果"
+            android:paddingLeft="10dp"
+
+            android:textColor="@color/text_gray"
+            android:textColorHint="#C8C8C8"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/save_new"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:text="保存"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

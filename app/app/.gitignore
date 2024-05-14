@@ -1,0 +1,21 @@
+<<<<<<< HEAD
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+/app/src/main/cpp/include/opencv2/
+=======
+/build
+/src/main/cpp/include/
+>>>>>>> 0d6b6eb6eb88d185384fa585b2b2e6c767e404e2

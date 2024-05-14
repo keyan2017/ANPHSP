@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">血红蛋白检测</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="action_settings">导出患者列表</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">血红蛋白检测</string>
+    <string name="nav_header_subtitle">西南医院麻醉科</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="search_hint">输入患者信息</string>
+    <string name="menu_home">Sampling and detection</string>
+    <string name="menu_gallery">患者列表</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="detail">患者信息</string>
+    <string name="menu_slideshow">设置</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>
