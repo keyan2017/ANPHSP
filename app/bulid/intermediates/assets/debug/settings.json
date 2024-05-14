@@ -1,0 +1,9 @@
+{
+  "default" : "Case_list.db",
+  "databases" : [
+    "Case_list.db"
+  ],
+  "output_name" : "Case_list",
+  "savingImagesEnabled" : "true",
+  "dir" : "outputs"
+}
