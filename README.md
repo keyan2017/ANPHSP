@@ -19,11 +19,7 @@
 5. 等待项目加载完毕。
 6. 连接你的 Android 设备，确保已开启开发者选项并启用 USB 调试。
 7. 在 Android Studio 中点击 "Run" 按钮，选择你的设备并运行应用程序。
-
-### prediction 和 segment 文件夹
-
-这两个文件夹的代码是系统的核心部分，一般情况下不需要直接操作。它们被整合到 app 文件夹中，以供 Android 应用程序调用。
-
+8. 我们还提供了测试用例图，在app/image/imagetest文件目录下
 ## 依赖安装
 
 在 app 文件夹中，我们使用了 OpenCV 库来处理图像数据。因此，在编译和运行该应用程序之前，请确保已安装 OpenCV。
@@ -38,3 +34,8 @@ implementation 'org.opencv:opencv-android:4.5.4'
 
 - 在运行 Android 应用程序之前，请确保你的设备已启用 USB 调试，并已连接到计算机。
 - 如果在使用过程中遇到任何问题，请随时联系我们的团队以获取支持。
+##运行效果
+![图片1](https://github.com/keyan2017/ANPHSP/assets/134493426/b15dbf11-65e1-43cb-9583-6f657a4ff748)
+![图片2](https://github.com/keyan2017/ANPHSP/assets/134493426/e320f7ca-b545-4243-afad-b65bbb9e4fa0)
+![图片3](https://github.com/keyan2017/ANPHSP/assets/134493426/46fb222e-7e79-4557-9cbd-99fbe8df4132)
+![图片4](https://github.com/keyan2017/ANPHSP/assets/134493426/d4e0cfb8-2bb3-44de-b321-62c44be2e087)
