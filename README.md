@@ -34,12 +34,6 @@ implementation 'org.opencv:opencv-android:4.5.4'
 
 - 在运行 Android 应用程序之前，请确保你的设备已启用 USB 调试，并已连接到计算机。
 - 如果在使用过程中遇到任何问题，请随时联系我们的团队以获取支持。
-##运行效果
+## 运行效果
 
-![图片1](https://github.com/keyan2017/ANPHSP/assets/134493426/b15dbf11-65e1-43cb-9583-6f657a4ff748)
-
-![图片2](https://github.com/keyan2017/ANPHSP/assets/134493426/e320f7ca-b545-4243-afad-b65bbb9e4fa0)
-
-![图片3](https://github.com/keyan2017/ANPHSP/assets/134493426/46fb222e-7e79-4557-9cbd-99fbe8df4132)
-
-![图片4](https://github.com/keyan2017/ANPHSP/assets/134493426/d4e0cfb8-2bb3-44de-b321-62c44be2e087)
+![微信图片_20240515112732](https://github.com/keyan2017/ANPHSP/assets/134493426/ae160c55-b4c1-4192-a22b-9cd21cbba02e)
