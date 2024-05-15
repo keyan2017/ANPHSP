@@ -23,7 +23,6 @@ git clone https://github.com/keyan2017/ANPHSP.git
 - 打开命令行终端。
 - 进入到 app 文件夹所在的目录。
 - 使用以下命令安装 OpenCV：
-  ```bash
   pip install opencv-python
 ##如何使用
 ###系统端主要代码（app 文件夹）：
